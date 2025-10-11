@@ -1,4 +1,4 @@
-* {
+  * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -19,7 +19,6 @@
     background-repeat: no-repeat;
     background-size: 1500px auto; 
     background-position: center top; 
-    width: 1440px;
      height: 741px;
      background-repeat: no-repeat;
      padding: 0;
@@ -37,37 +36,22 @@
     header {
   position: relative;
   overflow: hidden;
-  width: 1440px;
+  background-image: linear-gradient(0deg, rgba(43,74,87,87%),rgba(43,74,87,87%)), url('photo_2025-10-04_15-52-56.jpg');
   height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
   z-index: 1;
-}
-
-
-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url('photo_2025-10-04_15-52-56.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: center 35%;
-  filter: blur(4px) brightness(1.05); 
-  transform: scale(1.05); 
-  z-index: 0;
 }
 
 
-header::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.25); 
-  z-index: 1;
-}
+
+
+
 
 
 header * {
@@ -217,10 +201,182 @@ header * {
       background-color: #29b6f6;
     }
      
-   .avatar {
-    background: transparent ;
-   }
-  
+
+.energy{
+  background-color:white;
+  color: rgba(20, 20, 20, 1);
+  font-size: 36px;
+}
+ .h2{
+  font-size: 24px;
+ }
+
+.Navi-language {
+    background-image: url(photo_2025-10-09_18-38-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Headland One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navi-language-section-h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.Navi-language-cards-list {
+    max-width: 1033px;
+    height: 504px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card {
+    width: 320px;
+    height: 240px;
+    background-color: #ffffffa1;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.language-card-p-items {
+    margin: 0;
+    font-size: 24px;
+}
+
+.first {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.first::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 40px;
+    background-image: url("photo_2025-10-09_18-48-40.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15%;
+}
+
+.second {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13%;
+}
+
+.second::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 50px;
+    background-image: url("photo_2025-10-09_18-48-49.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 13%;
+}
+
+.third {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.third::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 40px;
+    background-image: url("photo_2025-10-09_18-50-04.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15%;
+}
+
+.forth {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.forth::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 40px;
+    background-image: url("photo_2025-10-09_18-48-40.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15%;
+}
+
+.fifth {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.fifth::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 50px;
+    background-image: url("photo_2025-10-09_18-48-49.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 13%;
+}
+
+.sixth {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.sixth::before {
+    content: '';
+    display: block;
+    width: 152px;
+    height: 40px;
+    background-image: url("photo_2025-10-09_18-50-04.jpg");
+    background-size: 152px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15%;
+}
 
   section {
       padding: 100px 50px;
@@ -281,11 +437,20 @@ header * {
     }
 
     footer {
-      background-color: #0a0a1a;
-      padding: 30px 50px;
-      text-align: center;
-      color: #aaa;
-      font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, rgba(43,74,87,87%),rgba(43,74,87,87%)), url('photo_2025-10-04_15-52-56.jpg');
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 50px;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
     }
-
-
